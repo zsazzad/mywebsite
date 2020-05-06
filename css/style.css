@@ -1,0 +1,198 @@
+@import 'utility.css';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    --webkit-font-smoothing:antialised;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: black;
+    clip-path: polygon(0 0,100% 0,100% 100%,80% 90%,0 100%);
+    
+}
+.container{
+    max-width: 1152px;
+    height: 750px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+header nav .left a:hover{
+    color: coral;
+    transition: .5s;
+}
+
+header nav{
+    padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.hero .left img{
+    width: 400px;
+
+}
+.hero .right
+{
+    color: white;
+}
+.hero .right h3{
+    font-size: 1.6rem;
+    color: cornflowerblue;
+    margin-bottom: 1.5rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+
+}
+.hero .right p{
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+section{
+    padding: 6rem 0;
+}
+section.about .about-me-image{
+    height: 450px;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section.about h1 span{
+    color: cornflowerblue;
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom:1rem ;
+    font-weight: 400;
+}
+section.about p{
+    color: #2f4f4f;
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+}
+section.about .social{
+    display: flex;
+}
+section.about .social a{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right:.6rem ;
+}
+section.about .social a:hover{
+    background: cornflowerblue;
+    color: black;
+    transition: .8s;
+}
+section.about .social a img
+{
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+}
+section.services{
+    background: silver;
+}
+
+.section-header{
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+.section-header span{
+    color: cornflowerblue;
+}
+.section-header +p{
+    margin-top: .1rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+section .container .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+section .container .card-wrapper .card{
+    padding: 6rem 2rem;
+    background: snow;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    position: relative;
+    
+}
+section .container .card-wrapper .card img{
+    position: absolute;
+    margin-top: -8rem;
+    margin-left: 6rem;
+    
+}
+section .container .card-wrapper .card h2{
+    margin-top: 1rem;
+    text-align: center;
+
+}
+section .container .card-wrapper .card +p{
+    font-family: sans-serif;
+    text-align: center;
+    
+
+}
+section .container .card-wrapper .card:hover{
+    background: black;
+    color:yellow;
+    transition: 0.7s;
+    cursor: pointer;
+}
+section.freelancer{
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
+    color: white;
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 80%,0 100%);
+    padding: 20rem;
+}
+section.freelancer h2{
+    font-family: sans-serif;
+    font-size: 2rem;
+ 
+}
+section.freelancer p{
+    margin-top: .5rem;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
+
+}
+
+section.review .container h1{
+    text-align: center;
+}
+section.review .container span{
+    color: cornflowerblue;
+}
+section.review .container p{
+    text-align: center;
+    font-family: sans-serif;
+    color:black;
+    margin-top: 1rem;
+}
+section.review .container .slider .slide{
+    height: 70%;
+}
